@@ -20,8 +20,10 @@ export const initialState = {
 export const reducer = (state = initialState, action) => {
 
     console.log(state)
-    return {
-      
+    switch(action.type){
+        default: 
+        return state;
     }
+    
   
   }
